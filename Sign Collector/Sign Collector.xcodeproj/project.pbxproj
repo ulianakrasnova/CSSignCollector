@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CECEF5DB1BA01488000E5BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */; };
-		CECEF5DD1BA01488000E5BE1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */; };
+		CECEF5DD1BA01488000E5BE1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DC1BA01488000E5BE1 /* MenuViewController.swift */; };
 		CECEF5DF1BA01488000E5BE1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */; };
 		CECEF5E21BA01488000E5BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E01BA01488000E5BE1 /* Main.storyboard */; };
 		CECEF5E41BA01488000E5BE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E31BA01488000E5BE1 /* Images.xcassets */; };
@@ -30,7 +30,7 @@
 		CECEF5D51BA01488000E5BE1 /* Sign Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECEF5D91BA01488000E5BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CECEF5DC1BA01488000E5BE1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CECEF5E11BA01488000E5BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECEF5E31BA01488000E5BE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */,
-				CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */,
+				CECEF5DC1BA01488000E5BE1 /* MenuViewController.swift */,
 				CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */,
 				CECEF5E01BA01488000E5BE1 /* Main.storyboard */,
 				CECEF5E31BA01488000E5BE1 /* Images.xcassets */,
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECEF5DF1BA01488000E5BE1 /* DetailViewController.swift in Sources */,
-				CECEF5DD1BA01488000E5BE1 /* MasterViewController.swift in Sources */,
+				CECEF5DD1BA01488000E5BE1 /* MenuViewController.swift in Sources */,
 				CECEF5DB1BA01488000E5BE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Sign Collector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Sign Collector/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +417,7 @@
 				CECEF5F81BA01488000E5BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CECEF5F91BA01488000E5BE1 /* Build configuration list for PBXNativeTarget "Sign CollectorTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +426,7 @@
 				CECEF5FB1BA01488000E5BE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
