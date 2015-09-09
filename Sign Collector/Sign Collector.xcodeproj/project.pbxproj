@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECEF5DB1BA01488000E5BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */; };
+		CECEF5DD1BA01488000E5BE1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */; };
+		CECEF5DF1BA01488000E5BE1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */; };
+		CECEF5E21BA01488000E5BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E01BA01488000E5BE1 /* Main.storyboard */; };
+		CECEF5E41BA01488000E5BE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E31BA01488000E5BE1 /* Images.xcassets */; };
+		CECEF5E71BA01488000E5BE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E51BA01488000E5BE1 /* LaunchScreen.xib */; };
+		CECEF5F31BA01488000E5BE1 /* Sign_CollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5F21BA01488000E5BE1 /* Sign_CollectorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECEF5ED1BA01488000E5BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECEF5CD1BA01488000E5BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECEF5D41BA01488000E5BE1;
+			remoteInfo = "Sign Collector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECEF5D51BA01488000E5BE1 /* Sign Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECEF5D91BA01488000E5BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CECEF5E11BA01488000E5BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECEF5E31BA01488000E5BE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECEF5E61BA01488000E5BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CECEF5EC1BA01488000E5BE1 /* Sign CollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sign CollectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECEF5F11BA01488000E5BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECEF5F21BA01488000E5BE1 /* Sign_CollectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_CollectorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECEF5D21BA01488000E5BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECEF5E91BA01488000E5BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECEF5CC1BA01488000E5BE1 = {
+			isa = PBXGroup;
+			children = (
+				CECEF5D71BA01488000E5BE1 /* Sign Collector */,
+				CECEF5EF1BA01488000E5BE1 /* Sign CollectorTests */,
+				CECEF5D61BA01488000E5BE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECEF5D61BA01488000E5BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECEF5D51BA01488000E5BE1 /* Sign Collector.app */,
+				CECEF5EC1BA01488000E5BE1 /* Sign CollectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECEF5D71BA01488000E5BE1 /* Sign Collector */ = {
+			isa = PBXGroup;
+			children = (
+				CECEF5DA1BA01488000E5BE1 /* AppDelegate.swift */,
+				CECEF5DC1BA01488000E5BE1 /* MasterViewController.swift */,
+				CECEF5DE1BA01488000E5BE1 /* DetailViewController.swift */,
+				CECEF5E01BA01488000E5BE1 /* Main.storyboard */,
+				CECEF5E31BA01488000E5BE1 /* Images.xcassets */,
+				CECEF5E51BA01488000E5BE1 /* LaunchScreen.xib */,
+				CECEF5D81BA01488000E5BE1 /* Supporting Files */,
+			);
+			path = "Sign Collector";
+			sourceTree = "<group>";
+		};
+		CECEF5D81BA01488000E5BE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECEF5D91BA01488000E5BE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECEF5EF1BA01488000E5BE1 /* Sign CollectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECEF5F21BA01488000E5BE1 /* Sign_CollectorTests.swift */,
+				CECEF5F01BA01488000E5BE1 /* Supporting Files */,
+			);
+			path = "Sign CollectorTests";
+			sourceTree = "<group>";
+		};
+		CECEF5F01BA01488000E5BE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECEF5F11BA01488000E5BE1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECEF5D41BA01488000E5BE1 /* Sign Collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECEF5F61BA01488000E5BE1 /* Build configuration list for PBXNativeTarget "Sign Collector" */;
+			buildPhases = (
+				CECEF5D11BA01488000E5BE1 /* Sources */,
+				CECEF5D21BA01488000E5BE1 /* Frameworks */,
+				CECEF5D31BA01488000E5BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sign Collector";
+			productName = "Sign Collector";
+			productReference = CECEF5D51BA01488000E5BE1 /* Sign Collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECEF5EB1BA01488000E5BE1 /* Sign CollectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECEF5F91BA01488000E5BE1 /* Build configuration list for PBXNativeTarget "Sign CollectorTests" */;
+			buildPhases = (
+				CECEF5E81BA01488000E5BE1 /* Sources */,
+				CECEF5E91BA01488000E5BE1 /* Frameworks */,
+				CECEF5EA1BA01488000E5BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECEF5EE1BA01488000E5BE1 /* PBXTargetDependency */,
+			);
+			name = "Sign CollectorTests";
+			productName = "Sign CollectorTests";
+			productReference = CECEF5EC1BA01488000E5BE1 /* Sign CollectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECEF5CD1BA01488000E5BE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CodeSWAT;
+				TargetAttributes = {
+					CECEF5D41BA01488000E5BE1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CECEF5EB1BA01488000E5BE1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CECEF5D41BA01488000E5BE1;
+					};
+				};
+			};
+			buildConfigurationList = CECEF5D01BA01488000E5BE1 /* Build configuration list for PBXProject "Sign Collector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECEF5CC1BA01488000E5BE1;
+			productRefGroup = CECEF5D61BA01488000E5BE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECEF5D41BA01488000E5BE1 /* Sign Collector */,
+				CECEF5EB1BA01488000E5BE1 /* Sign CollectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECEF5D31BA01488000E5BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECEF5E21BA01488000E5BE1 /* Main.storyboard in Resources */,
+				CECEF5E71BA01488000E5BE1 /* LaunchScreen.xib in Resources */,
+				CECEF5E41BA01488000E5BE1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECEF5EA1BA01488000E5BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECEF5D11BA01488000E5BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECEF5DF1BA01488000E5BE1 /* DetailViewController.swift in Sources */,
+				CECEF5DD1BA01488000E5BE1 /* MasterViewController.swift in Sources */,
+				CECEF5DB1BA01488000E5BE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECEF5E81BA01488000E5BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECEF5F31BA01488000E5BE1 /* Sign_CollectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECEF5EE1BA01488000E5BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECEF5D41BA01488000E5BE1 /* Sign Collector */;
+			targetProxy = CECEF5ED1BA01488000E5BE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECEF5E01BA01488000E5BE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECEF5E11BA01488000E5BE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECEF5E51BA01488000E5BE1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECEF5E61BA01488000E5BE1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECEF5F41BA01488000E5BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECEF5F51BA01488000E5BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECEF5F71BA01488000E5BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sign Collector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECEF5F81BA01488000E5BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sign Collector/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECEF5FA1BA01488000E5BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sign CollectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sign Collector.app/Sign Collector";
+			};
+			name = Debug;
+		};
+		CECEF5FB1BA01488000E5BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sign CollectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sign Collector.app/Sign Collector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECEF5D01BA01488000E5BE1 /* Build configuration list for PBXProject "Sign Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECEF5F41BA01488000E5BE1 /* Debug */,
+				CECEF5F51BA01488000E5BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECEF5F61BA01488000E5BE1 /* Build configuration list for PBXNativeTarget "Sign Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECEF5F71BA01488000E5BE1 /* Debug */,
+				CECEF5F81BA01488000E5BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECEF5F91BA01488000E5BE1 /* Build configuration list for PBXNativeTarget "Sign CollectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECEF5FA1BA01488000E5BE1 /* Debug */,
+				CECEF5FB1BA01488000E5BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECEF5CD1BA01488000E5BE1 /* Project object */;
+}
