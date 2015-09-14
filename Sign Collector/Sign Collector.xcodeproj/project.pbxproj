@@ -16,6 +16,7 @@
 		CECEF5E41BA01488000E5BE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E31BA01488000E5BE1 /* Images.xcassets */; };
 		CECEF5E71BA01488000E5BE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECEF5E51BA01488000E5BE1 /* LaunchScreen.xib */; };
 		CECEF5F31BA01488000E5BE1 /* Sign_CollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECEF5F21BA01488000E5BE1 /* Sign_CollectorTests.swift */; };
+		CED435771BA6E03500069E8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED435761BA6E03500069E8A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CECEF5EC1BA01488000E5BE1 /* Sign CollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sign CollectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECEF5F11BA01488000E5BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CECEF5F21BA01488000E5BE1 /* Sign_CollectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_CollectorTests.swift; sourceTree = "<group>"; };
+		CED435761BA6E03500069E8A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CECEF5E31BA01488000E5BE1 /* Images.xcassets */,
 				CECEF5E51BA01488000E5BE1 /* LaunchScreen.xib */,
 				CECEF5D81BA01488000E5BE1 /* Supporting Files */,
+				CED435761BA6E03500069E8A /* LoginViewController.swift */,
 			);
 			path = "Sign Collector";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED435771BA6E03500069E8A /* LoginViewController.swift in Sources */,
 				CECEF5DF1BA01488000E5BE1 /* DetailViewController.swift in Sources */,
 				CE6AE23B1BA1BA5200BE1FB4 /* DrawView.swift in Sources */,
 				CE6AE2381BA1B9CB00BE1FB4 /* Line.swift in Sources */,
