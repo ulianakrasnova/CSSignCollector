@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H1p-Uh-vWS">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -54,7 +54,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ETv-pX-7qN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H6d-Ah-6i8">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginIcon" translatesAutoresizingMaskIntoConstraints="NO" id="U75-CN-XKY">
@@ -92,26 +92,26 @@
                         <viewControllerLayoutGuide type="bottom" id="GAO-Cl-Wes"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vua-hM-yH9">
-                                <rect key="frame" x="16" y="132" width="736" height="30"/>
+                                <rect key="frame" x="16" y="132" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dvW-8D-WsY">
-                                <rect key="frame" x="16" y="199" width="736" height="30"/>
+                                <rect key="frame" x="16" y="199" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TaK-gz-CCF">
-                                <rect key="frame" x="16" y="266" width="736" height="30"/>
+                                <rect key="frame" x="16" y="266" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="39D-Bu-i0C">
-                                <rect key="frame" x="16" y="333" width="736" height="30"/>
+                                <rect key="frame" x="16" y="333" width="568" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -137,7 +137,7 @@
                                 </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-pC-3JA">
-                                <rect key="frame" x="312" y="409" width="440" height="30"/>
+                                <rect key="frame" x="312" y="409" width="272" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -241,10 +241,6 @@
                                     <action selector="cleanForm:" destination="JEX-9P-axG" eventType="touchUpInside" id="Zhn-nT-DzV"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hro-eD-fhK" customClass="DrawView" customModule="Sign_Collector" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signature (drawing):" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2J-Ds-AFv">
                                 <rect key="frame" x="16" y="380" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -366,6 +362,11 @@
                             <mask key="constraints">
                                 <exclude reference="2hl-P4-xNq"/>
                                 <exclude reference="gar-Ji-TQ1"/>
+                                <exclude reference="Ild-gq-Mvy"/>
+                                <exclude reference="K0c-Dq-CAb"/>
+                                <exclude reference="6XV-O0-I5w"/>
+                                <exclude reference="EY8-Vm-JcE"/>
+                                <exclude reference="Ptd-6O-7vB"/>
                                 <exclude reference="NtH-b1-fOh"/>
                                 <exclude reference="L9w-pR-6XR"/>
                                 <exclude reference="dDS-VS-Wbw"/>
@@ -400,11 +401,6 @@
                                 <exclude reference="D2g-j7-N0C"/>
                                 <exclude reference="KZL-NP-5YK"/>
                                 <exclude reference="lOM-Xb-ejv"/>
-                                <exclude reference="Ild-gq-Mvy"/>
-                                <exclude reference="K0c-Dq-CAb"/>
-                                <exclude reference="6XV-O0-I5w"/>
-                                <exclude reference="EY8-Vm-JcE"/>
-                                <exclude reference="Ptd-6O-7vB"/>
                                 <exclude reference="MbZ-sj-PKJ"/>
                                 <exclude reference="rKc-2J-nZq"/>
                             </mask>
@@ -419,6 +415,11 @@
                             <mask key="constraints">
                                 <include reference="2hl-P4-xNq"/>
                                 <include reference="gar-Ji-TQ1"/>
+                                <include reference="Ild-gq-Mvy"/>
+                                <include reference="K0c-Dq-CAb"/>
+                                <include reference="6XV-O0-I5w"/>
+                                <include reference="EY8-Vm-JcE"/>
+                                <include reference="Ptd-6O-7vB"/>
                                 <exclude reference="3WZ-Ap-XU2"/>
                                 <exclude reference="8W5-Hd-TlS"/>
                                 <include reference="NtH-b1-fOh"/>
@@ -484,11 +485,6 @@
                                 <exclude reference="J7Y-mu-IOF"/>
                                 <include reference="KZL-NP-5YK"/>
                                 <include reference="lOM-Xb-ejv"/>
-                                <include reference="Ild-gq-Mvy"/>
-                                <include reference="K0c-Dq-CAb"/>
-                                <include reference="6XV-O0-I5w"/>
-                                <include reference="EY8-Vm-JcE"/>
-                                <include reference="Ptd-6O-7vB"/>
                                 <include reference="MbZ-sj-PKJ"/>
                                 <include reference="rKc-2J-nZq"/>
                             </mask>
@@ -581,14 +577,14 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZU-Oi-B1e" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-896" y="-22.5"/>
+            <point key="canvasLocation" x="-928" y="-64.5"/>
         </scene>
         <!--Master-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
                 <tableViewController title="Master" clearsSelectionOnViewWillAppear="NO" id="7bK-jq-Zjz" customClass="MenuViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="white" dataMode="static" style="plain" separatorStyle="none" rowHeight="66" sectionHeaderHeight="22" sectionFooterHeight="22" id="r7i-6Z-zg0">
-                        <rect key="frame" x="0.0" y="0.0" width="308" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -596,7 +592,7 @@
                         <color key="sectionIndexBackgroundColor" red="0.27625592360000001" green="0.28245630510000003" blue="0.30105744950000002" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.27625592360000001" green="0.28245630510000003" blue="0.30105744950000002" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableFooterView" contentMode="redraw" id="qbl-ze-JCg">
-                            <rect key="frame" x="0.0" y="284" width="308" height="568"/>
+                            <rect key="frame" x="0.0" y="394" width="600" height="568"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.27625592360000001" green="0.28245630510000003" blue="0.30105744950000002" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
@@ -772,6 +768,6 @@
         <image name="SyncIcon" width="80" height="80"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="G8y-tb-Ara"/>
+        <segue reference="Tll-UG-LXB"/>
     </inferredMetricsTieBreakers>
 </document>
